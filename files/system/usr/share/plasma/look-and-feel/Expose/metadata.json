@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "phobian347@outlook.com",
+                "Name": "Phobian347"
+            }
+        ],
+        "Category": "",
+        "Description": "Remembering XP",
+        "Id": "org.magpie.expose.desktop",
+        "License": "GPLv2+",
+        "Name": "Expose",
+        "Website": "https://www.pling.com/u/phob1an/"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+    "X-Plasma-APIVersion": "2"
+}
