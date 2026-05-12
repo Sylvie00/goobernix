@@ -9,14 +9,17 @@ description: Bazzite image customized for my friend.
 base-image: ghcr.io/ublue-os/bazzite
 image-version: latest # latest is also supported if you want new updates ASAP
 
-# module configuration, executed in order
-# you can include multiple instances of the same module
+modules:
+  - type: rpm-ostree
+    install:
+      - kvantum
+
 modules:
   - type: files
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-        
+
   - type: script
     scripts:
       - os-info.sh
