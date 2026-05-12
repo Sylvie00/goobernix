@@ -14,7 +14,7 @@ modules:
     install:
       - kvantum
 
-modules:
+  
   - type: files
     files:
       - source: system
