@@ -1,6 +1,8 @@
 # goobernix &nbsp; [![bluebuild build badge](https://github.com/sylvie00/goobernix/actions/workflows/build.yml/badge.svg)](https://github.com/sylvie00/goobernix/actions/workflows/build.yml)
 
-Custom Bazzite image created for my friend moving to Linux
+Custom Bazzite image created for my friend moving to Linux, I don't recommend using this over regular Bazzite unless you're them lol.
+
+This image includes Kvantum and the Expose theme.
 
 ## Installation
 
